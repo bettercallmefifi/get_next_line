@@ -6,7 +6,7 @@
 /*   By: feel-idr <feel-idr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/15 17:54:26 by feel-idr          #+#    #+#             */
-/*   Updated: 2025/11/15 17:54:27 by feel-idr         ###   ########.fr       */
+/*   Updated: 2025/11/16 16:43:07 by feel-idr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,13 +34,13 @@ int	ft_strchr(char *s, int c)
 	return (-1);
 }
 
-char	*ft_calloc(int	count, int	size)
+char	*ft_calloc(int count, int size)
 {
 	char	*allo;
 	int		i;
 	int		len;
 
-	len	= count * size;
+	len = count * size;
 	allo = (char *)malloc(len);
 	if (allo == 0)
 		return (0);
@@ -49,12 +49,13 @@ char	*ft_calloc(int	count, int	size)
 		allo[i++] = 0;
 	return (allo);
 }
+
 char	*ft_strjoin(char *s1, char *s2)
 {
 	char	*allocat;
 	int		i;
 	int		j;
-	int 	len;
+	int		len;
 
 	i = 0;
 	j = 0;
