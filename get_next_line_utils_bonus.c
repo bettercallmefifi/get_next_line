@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: feel-idr <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: feel-idr <feel-idr@student.42.fr           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/16 16:50:13 by feel-idr          #+#    #+#             */
 /*   Updated: 2025/11/16 16:50:16 by feel-idr         ###   ########.fr       */
