@@ -6,7 +6,7 @@
 /*   By: feel-idr <feel-idr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/15 17:54:24 by feel-idr          #+#    #+#             */
-/*   Updated: 2025/11/16 16:42:22 by feel-idr         ###   ########.fr       */
+/*   Updated: 2025/11/16 17:54:30 by feel-idr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,14 +83,14 @@ char	*get_next_line(int fd)
 	stock = NULL;
 	return (line);
 }
-// int main(int ac, char **av)
+// int main()
 // {
-
-// 	(void)ac;
-// 	int fd = open(av[1], O_RDONLY);
-
-// 	printf("%s", get_next_line(fd));
-// 	printf("%s", get_next_line(fd));
-// 	printf("%s", get_next_line(fd));
+// 	int fd = open("file.txt", O_RDONLY);
+// 	char *str;
+// 	while(str = get_next_line(fd))
+// 	{
+// 		printf("%s", str);
+// 		free(str);
+// 	}
 // 	return (0);
 // }
